@@ -6,7 +6,7 @@ gem 'rails', '3.2.16'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :develpment do
-	gem 'sqlite3'
+	gem 'sqlite3', '~> 1.3.10'
 end
 
 group :production do
